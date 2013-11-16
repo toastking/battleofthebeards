@@ -1,0 +1,71 @@
+#TitleBar{
+	height: 30px;
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+#TitleBar li{
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	text-align: center;
+}
+
+#MenuBar{
+	height:40px;
+	width: 100%;;
+    background-color:#B980D2;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    text-align: right;
+    vertical-align: middle;
+    padding-top: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+#MenuBar li{
+	padding-right: 20px;
+}
+
+#logo{
+	width: 10%;
+}
+
+#SiteTitle{
+	width: 80%;
+	border-right: solid;
+	border-left: solid;;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#PhotoSpace{
+	padding-top: 0px;
+	margin: 0px auto;
+	padding: 0px 10% 0px 10%;
+}
+
+#space{
+	height: 30px;
+}
+
+#LeftPhoto{
+	border-style: solid;
+	height: 400px;
+	width: 300px;
+	float: left;
+}
+
+#RightPhoto{
+	border-style: solid;
+	height: 400px;
+	width: 300px;
+	float: right;
+}
