@@ -1,45 +1,90 @@
+div {
+
+}
+
+body{
+	background-color: #31250E;
+}
+
 #TitleBar{
-	height: 30px;
+	height: 50px;
 	width: 100%;
 	border-style: solid;
 	border-width: 1px;
+	border-color: #FFFFFF;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	/*border-top-right-radius: 10px;
+	border-top-left-radius: 10px; */
+	margin-top: -10px;
+	text-align: center;
 }
 
 
 #TitleBar li{
 	padding: 0;
 	list-style-type: none;
-	float: left;
-	text-align: center;
+	height: 100%;
 }
+
+#logoLeft{
+	width: 10%;
+	float: left;
+	margin-left: 2%;
+}
+
+#logoRight{
+	width: 10%;
+	float: right;
+	margin-right: 2%;
+}
+
+#TitleBar img{
+	max-width: 100%;
+	max-height:100%;
+	margin-top: -10px;
+	padding: 0 0 0 0;
+}
+
+#SiteTitle{
+	width: 60%;
+	border-right: solid;
+	border-left: solid;
+	display: inline-block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
 
 #MenuBar{
 	height:40px;
 	width: 100%;;
-    background-color:#B980D2;
+    background-color:#830D24;
+    border-color: #FFFFFF;
     display: inline-block;
     border-style: solid;
     border-width: 1px;
-    text-align: right;
     vertical-align: middle;
     padding-top: 0px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-
+    color: #FFFFFF;
 }
 
 #MenuBar li{
-	padding-right: 20px;
+	margin-right: 20px;
+	float: right;
 }
 
-#logo{
-	width: 10%;
-}
-
-#SiteTitle{
-	width: 80%;
-	border-right: solid;
-	border-left: solid;;
+#MenuBar li:hover
+{
+background-color:#FFFFFF;
+color: #830D24;
+border-radius: 5px;
 }
 
 ul {
