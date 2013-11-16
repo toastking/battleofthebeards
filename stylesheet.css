@@ -1,0 +1,116 @@
+div {
+
+}
+
+body{
+	background-color: #31250E;
+}
+
+#TitleBar{
+	height: 50px;
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	/*border-top-right-radius: 10px;
+	border-top-left-radius: 10px; */
+	margin-top: -10px;
+	text-align: center;
+}
+
+
+#TitleBar li{
+	padding: 0;
+	list-style-type: none;
+	height: 100%;
+}
+
+#logoLeft{
+	width: 10%;
+	float: left;
+	margin-left: 2%;
+}
+
+#logoRight{
+	width: 10%;
+	float: right;
+	margin-right: 2%;
+}
+
+#TitleBar img{
+	max-width: 100%;
+	max-height:100%;
+	margin-top: -10px;
+	padding: 0 0 0 0;
+}
+
+#SiteTitle{
+	width: 60%;
+	border-right: solid;
+	border-left: solid;
+	display: inline-block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+#MenuBar{
+	height:40px;
+	width: 100%;;
+    background-color:#830D24;
+    border-color: #FFFFFF;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    vertical-align: middle;
+    padding-top: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #FFFFFF;
+}
+
+#MenuBar li{
+	margin-right: 20px;
+	float: right;
+}
+
+#MenuBar li:hover
+{
+background-color:#FFFFFF;
+color: #830D24;
+border-radius: 5px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#PhotoSpace{
+	padding-top: 0px;
+	margin: 0px auto;
+	padding: 0px 10% 0px 10%;
+}
+
+#space{
+	height: 30px;
+}
+
+#LeftPhoto{
+	border-style: solid;
+	height: 400px;
+	width: 300px;
+	float: left;
+}
+
+#RightPhoto{
+	border-style: solid;
+	height: 400px;
+	width: 300px;
+	float: right;
+}
