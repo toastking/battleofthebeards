@@ -23,7 +23,7 @@ body{
 }
 
 
-#TitleBar li{
+#TitleBar div{
 	padding: 0;
 	list-style-type: none;
 	height: 100%;
@@ -65,12 +65,12 @@ body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-#MenuBar li{
+#MenuBar div{
 	margin-right: 20px;
 	float: right;
 }
 
-#MenuBar li:hover
+#MenuBar div:hover
 {
 background-color:#FFFFFF;
 color: #830D24;
