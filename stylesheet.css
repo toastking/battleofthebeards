@@ -64,8 +64,7 @@ body{
     border-width: 1px;
     vertical-align: middle;
     padding-top: 0px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 10px;
     color: #FFFFFF;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
