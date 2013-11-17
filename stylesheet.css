@@ -9,6 +9,7 @@ body{
 #TitleBar{
 	height: 100px;
 	width: 100%;
+	min-width:700px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #FFFFFF;
@@ -50,7 +51,8 @@ body{
 
 #MenuBar{
 	height:40px;
-	width: 100%;;
+	width: 100%;
+	min-width:700px;
     background-color:#830D24;
     border-color: #FFFFFF;
     display: inline-block;
@@ -86,6 +88,7 @@ ul {
 
 #PhotoSpace{
 	position: relative;
+	min-width:700px;
 	padding-top: 0px;
 	margin: 0px auto;
 	padding: 0px 10% 0px 10%;
