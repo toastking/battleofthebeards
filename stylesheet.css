@@ -9,7 +9,7 @@ body{
 #TitleBar{
 	height: 100px;
 	width: 100%;
-	min-width:700px;
+	min-width:800px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #FFFFFF;
@@ -52,7 +52,7 @@ body{
 #MenuBar{
 	height:40px;
 	width: 100%;
-	min-width:700px;
+	min-width:800px;
     background-color:#830D24;
     border-color: #FFFFFF;
     display: inline-block;
@@ -88,12 +88,14 @@ ul {
 
 #PhotoSpace{
 	position: relative;
-	min-width:700px;
+	width: 700px;
 	padding-top: 0px;
-	margin: 0px auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0px 10% 0px 10%;
 	float: left;
 	text-align: center;
+	overflow: scroll;
 }
 
 #LeftPhoto{
@@ -124,8 +126,21 @@ ul {
 	border-style: solid;
 	height: 400px;
 	width: 300px;
-	float: right;
+	float: left;
 	margin-left: -50px;
+}
+
+#breaker{
+	border-style: none;
+	float: left;
+	position: relative;
+}
+
+#top10{
+	border-style: solid;
+	height: 200px;
+	width: 100%;
+	clear:;
 }
 
 div.photo:hover{
