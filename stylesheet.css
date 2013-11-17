@@ -109,7 +109,7 @@ ul {
 	width: 100px;
 	height: 100px;
 	border-radius: 100%;
-	float: inherit;
+	float: left;
 	background-color: #FFFF0E;
 	margin: 10px;
 	margin-top: 70px;
