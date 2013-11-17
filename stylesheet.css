@@ -87,14 +87,12 @@ ul {
 }
 
 #PhotoSpace{
+	clear:both;
 	position: relative;
 	width: 700px;
-	padding-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0px 10% 0px 10%;
-	float: left;
-	text-align: center;
 	overflow: scroll;
 }
 
